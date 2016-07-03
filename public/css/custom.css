@@ -1,0 +1,38 @@
+body {
+	padding-top: 20px;
+    background-color: #000000;
+}
+
+
+p.summary{
+	padding: 10% 10% 10% 10%;
+	color: white;
+	font-size: x-large;
+	font-family:"Times New Roman";
+}
+
+// http://stackoverflow.com/questions/20540563/change-icon-bar-color-in-bootstrap
+.navbar-default .navbar-toggle .icon-bar {
+	color: #AEF16C;
+	border-color: black;
+    background-color: #AEF16C;
+}
+
+// http://stackoverflow.com/questions/29732159/is-left-aligning-the-button-of-a-twitter-bootstrap-navbar-possible	
+.navbar-toggle.pull-left {
+  float: left;
+  margin-left: 20px;
+}
+
+//https://colorlib.com/wp/forums/topic/how-do-i-edit-the-navbar-toggle/
+.navbar-default .navbar-toggle {
+  border-color: transparent; /* Removes border color */
+  float: left; /* Move navbar toggle to left */
+  margin-left: 20px;
+}
+// .navbar-default .navbar-toggle .icon-bar {
+//   //background-color: #AEF16C !important; /* Changes regular toggle color */
+// }
+.navbar-default .navbar-toggle .icon-bar:hover {
+  background-color: #ABCDEF; /* Changes toggle color on hover */
+}
